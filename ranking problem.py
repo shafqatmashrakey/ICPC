@@ -12,8 +12,8 @@ print("Now give the prediction")
 
 prediction = []
 for j in range(matches):
-    winner = input("Enter the winner team:")
-    loser = input("Enter the loser team: ")
+    winner = input("Enter the winner team number.ex(T1..):")
+    loser = input("Enter the loser team number.ex(T4..): ")
 
     # Extract the team numbers from the strings
     winner_num = int(winner[1:])
